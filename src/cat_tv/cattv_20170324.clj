@@ -29,7 +29,7 @@
            (let [new-x  (+ x (* (q/cos angle) dot-size))
                  new-y  (+ y (* (q/sin angle) dot-size))]
                 (q/ellipse x y dot-size dot-size)
-                (seed2 (* dot-size 0.99) (+ angle angle-offset-a)) new-x new-y angle-offset-a angle-offset-b)
+                (seed2 (* dot-size 0.99) (+ angle angle-offset-a) new-x new-y angle-offset-a angle-offset-b))
                          
            (let [new-x  (+ x (q/cos angle))
                  new-y  (+ y (q/sin angle))]
