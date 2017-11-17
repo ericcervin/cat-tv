@@ -1,7 +1,7 @@
 ;;based on Parameterize Waves
 ;;from Form+Code in Design, Art, and Architecture by Reas, etc.
 
-(ns getting-started-with-quil.cattv-20170326
+(ns cat-tv.cattv-20170326
   (:require [quil.core :as q]
             [quil.middleware :as m]))
 
